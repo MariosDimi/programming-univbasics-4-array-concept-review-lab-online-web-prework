@@ -10,15 +10,15 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  x = array[0]
+  number = array[0]
   array.length.times { |index|
-    if array[index] > x
-      x = array[index]
+    if array[index] > number
+      number = array[index]
     end
   }
-  x
+  number
 end
 
 def find_min_value(array)
-  # Add your solution here
+  
 end
